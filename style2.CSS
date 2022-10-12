@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    background: palegreen;
+}
+.rotate{
+    width: 500px;
+    height: 281px;
+    margin-top: 10%;
+    margin-left: 25%;
+    overflow: hidden;
+}
+.image{
+    width: 100% ;
+    height: 100%;
+    background-position: center;
+    background-size: cover ;
+    background-image: url("https://mclaren.scene7.com/is/image/mclaren/DSC00052_6:crop-1x1?wid=1200&hei=1200");
+    transition: .3s ease-in-out;
+}
+.image:hover{
+    transform: rotate(360deg) scale(1.5);
+}
